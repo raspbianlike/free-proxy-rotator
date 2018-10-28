@@ -12,7 +12,7 @@ const PROXY_OPTIONS = {
 
 const CWD = process.cwd()
 const PORT = process.env.PORT || 1339
-const REFRESH_RATE = process.env.REFRESH_RATE || 60
+const REFRESH_RATE = process.env.REFRESH_RATE || 5
 
 const PID_FILE = `${CWD}/ha.pid`;
 const CFG_FILE = `${CWD}/haproxy.cfg`;
